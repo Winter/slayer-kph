@@ -1,13 +1,14 @@
-package com.example;
+package winter.slayerkph;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+@SuppressWarnings("unchecked")
+public class SlayerKphPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(SlayerKphPlugin.class);
 		RuneLite.main(args);
 	}
 }
