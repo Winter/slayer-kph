@@ -8,12 +8,12 @@ import net.runelite.client.config.ConfigItem;
 public interface SlayerKphConfig extends Config
 {
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		keyName = "samplesize",
+		name = "Sample Size",
+		description = "Determines the amount of monsters to consider for calcluating the hourly rate"
 	)
-	default String greeting()
+	default int sampleSize()
 	{
-		return "Hello";
+		return 10;
 	}
 }
