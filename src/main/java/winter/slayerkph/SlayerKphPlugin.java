@@ -145,6 +145,7 @@ public class SlayerKphPlugin extends Plugin {
 		}
 
 		infoBoxManager.removeInfoBox(counter);
+		killTimeSamples.clear();
 		counter = null;
 
 		log.debug("Removed counter");
